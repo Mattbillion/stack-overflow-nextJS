@@ -1,5 +1,5 @@
 import Link from "next/link";
-
+import { UserButton } from "@clerk/nextjs";
 export default function Home() {
   return (
     <main>
@@ -7,6 +7,7 @@ export default function Home() {
       <Link href="projects/list" className="flex-center">
         see projects
       </Link>
+      <UserButton afterSignOutUrl="/" />
     </main>
   );
 }
