@@ -23,6 +23,14 @@
     @apply bg-light-800 dark:bg-dark-400 !important;
   }
 
+  .background-light900_dark500 {
+    @apply bg-light-900 dark:bg-dark-500;
+  }
+
+  .background-light500_dark300 {
+    @apply bg-light-500 dark:bg-dark-300;
+  }
+
   .background-light700_dark400 {
     @apply bg-light-700 dark:bg-dark-400;
   }

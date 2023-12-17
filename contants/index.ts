@@ -71,3 +71,73 @@ export const BADGE_CRITERIA = {
     GOLD: 100000,
   },
 };
+
+export const RightBarData = {
+  title: "Hot Network",
+  articles: [
+    {
+      subTitle:
+        "Would it be appropriate to point out an error in another paper during a referee report?",
+      route: "/",
+    },
+    {
+      subTitle: "How can an airconditioning machine exist?",
+      route: "/",
+    },
+    {
+      subTitle: "Interrogated every time crossing UK Border as citizen",
+      route: "/",
+    },
+    {
+      subTitle: "Low digit addition generator",
+      route: "/",
+    },
+    {
+      subTitle: "What is an example of 3 numbers that do not make up a vector?",
+      route: "/",
+    },
+  ],
+  title1: "Popular Tags",
+  tags: [
+    {
+      subTitle: "javascript",
+      route: "/",
+      total: "20152+",
+    },
+    {
+      subTitle: "next.js",
+      route: "/",
+      total: "18493+",
+    },
+    {
+      subTitle: "react.js",
+      route: "/",
+      total: "16269+",
+    },
+    {
+      subTitle: "node.js",
+      route: "/",
+      total: "15121+",
+    },
+    {
+      subTitle: "python",
+      route: "/",
+      total: "14431+",
+    },
+    {
+      subTitle: "microsoft azure",
+      route: "/",
+      total: "9429+",
+    },
+    {
+      subTitle: "postgresql",
+      route: "/",
+      total: "9429+",
+    },
+    {
+      subTitle: "machine learning",
+      route: "/",
+      total: "9429+",
+    },
+  ],
+};
