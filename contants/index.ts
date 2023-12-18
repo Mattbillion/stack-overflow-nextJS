@@ -141,3 +141,10 @@ export const RightBarData = {
     },
   ],
 };
+
+export const FilterOptions = [
+  { label: "Newest" },
+  { label: "Recommended Questions" },
+  { label: "Frequent" },
+  { label: "Unanswered" },
+];
